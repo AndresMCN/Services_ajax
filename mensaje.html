@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/peticiones_mensaje.js"></script>
+
+</head>
+<body>
+
+    <H1>Mensajes</H1>
+
+    ID MENSAJE: <input type="number" id="idMensaje"><br><br>
+    MENSAJE: <textarea type="textarea" id="messagetext" rows="4" cols="50"></textarea><br><br>
+   
+
+    <button onclick="leerMensaje()">leer mensajes</button>
+    <button onclick="guardarMensaje()">guardar mensaje</button>
+    <button onclick="editarMensaje()">actualizar mensaje</button>
+
+
+    <div id="listaMensajes">
+
+        
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/peticiones_cliente.js"></script>
+
+</head>
+<body>
+
+    <H1>Clientes</H1>
+
+    ID CLIENTE: <input type="number" id="idcliente"><br>
+    NOMBRE: <input type="text " id="name"><br>
+    EMAIL: <input type="email" id="email"><br>
+    EDAD: <input type="number" id="edad"><br><br>
+
+    <button onclick="leerCliente()">leer clientes</button>
+    <button onclick="guardarCliente()">guardar cliente</button>
+    <button onclick="editarCliente()">actualizar cliente</button>
+
+
+
+    <div id="listaClientes">
+
+        
+
+    </div>
+
+</body>
+</html>
